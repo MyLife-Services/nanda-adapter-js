@@ -1,0 +1,12 @@
+{
+  "name": "nanda-sdk",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "keywords": ["nanda", "sdk", "adapter", "agent", "mcp", "a2a", "mit"],
+  "author": "erik jespersen @mookse",
+  "license": "MIT"
+}
