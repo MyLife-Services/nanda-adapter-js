@@ -1,7 +1,6 @@
 {
   "name": "nanda-sdk",
   "author": "NANDA; erik jespersen @mookse <erikj@humanremembranceproject.org>",
-  "author_email": "erikj@humanremembranceproject.org",
   "description": "SDK for setting up Internet of Agents servers",
   "version": "0.0.1",
   "type": "module",
