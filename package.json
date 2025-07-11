@@ -6,6 +6,9 @@
   "version": "0.0.1",
   "type": "module",
   "main": "src/index.mjs",
+  "engines": {
+    "node": ">=18"
+  },
   "exports": {
     ".": "./src/index.mjs"
   },
