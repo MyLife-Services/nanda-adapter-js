@@ -4,13 +4,28 @@
   "description": "SDK for setting up Internet of Agents servers",
   "version": "0.0.1",
   "type": "module",
-  "main": "src/index.mjs",
+  "main": "dist/index.js",
   "engines": {
     "node": ">=18"
   },
   "exports": {
-    ".": "./src/index.mjs"
+    ".": "./dist/index.js"
   },
-  "keywords": ["nanda", "sdk", "adapter", "agent", "mcp", "a2a", "mit"],
-  "license": "MIT"
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "nanda",
+    "sdk",
+    "adapter",
+    "agent",
+    "mcp",
+    "a2a",
+    "mit"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
 }
