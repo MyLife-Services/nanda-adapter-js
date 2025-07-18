@@ -1,3 +1,7 @@
-export * from './types/datamanager'
-export * from './types/agent'
-export * from './types/user'
+export { NandaIndex,} from './nandaIndex.js'
+export type {
+  GetAgentsFn,
+  NandaIndexOptions,
+} from './types/nandaIndex'
+export type * from './types/agent'
+export type * from './types/user'
