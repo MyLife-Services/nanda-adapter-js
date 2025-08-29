@@ -1,16 +1,22 @@
 {
-  "name": "nanda-sdk",
   "author": "NANDA; erik jespersen @mookse <erikj@humanremembranceproject.org>",
   "description": "SDK for setting up Internet of Agents servers",
-  "version": "0.0.1",
-  "type": "module",
-  "main": "src/index.mjs",
   "engines": {
     "node": ">=18"
   },
   "exports": {
     ".": "./src/index.mjs"
   },
+  "files": [
+    "dist/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": ["nanda", "sdk", "adapter", "agent", "mcp", "a2a", "mit"],
-  "license": "MIT"
+  "license": "MIT",
+  "main": "src/index.mjs",
+  "name": "nanda-sdk",
+  "type": "module",
+  "version": "0.0.1"
 }
