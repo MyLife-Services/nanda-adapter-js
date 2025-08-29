@@ -11,3 +11,17 @@ Taken from original repository written to act as a stand-alone python server
 * [Universal Agent Adaptor](https://github.com/projnanda/nanda-sdk), see [@mariagorskikh](https://github.com/mariagorskikh)
 * [Universal Adaptor with Agent](https://github.com/aidecentralized/adapter-agent-sdk)
 
+## requirements.txt
+
+In the original python, the following npm packages are utilized. We are handling `mcp` and `A2A` with custom code, so I may need to build javascript packages to accommodate.
+
+```
+flask → Express
+flask-cors → cors
+requests → fetch
+anthropic → @anthropic-ai/sdk
+python-dotenv → dotenv
+pymongo → mongodb
+mcp → ??
+python-a2a==0.5.6 → ??
+```
