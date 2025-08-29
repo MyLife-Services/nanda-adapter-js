@@ -17,6 +17,10 @@
   "license": "MIT",
   "main": "src/index.mjs",
   "name": "nanda-sdk",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
   "type": "module",
   "version": "0.0.1"
 }
